@@ -232,16 +232,14 @@
 
 .pets-container {
   width: 1280px;
-  background: #f6f6f6;
+  background: #772626;
+  padding: 80px 40px 100px 40px;
 }
 
 .pets-content {
-  width: 1200px;
-  margin: 0 auto;
-  height: 877px;
-  padding: 80px 0 100px 0;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  
 
   background: #f6f6f6;
 }
@@ -264,4 +262,35 @@
 
   color: #545454;
   text-align: center;
+}
+
+
+
+.pets-slider {
+  height: 435px;
+  margin: 60px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pets-card {
+  text-align: center;
+}
+
+.pets-card__title {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+  margin: 30px 0px;
+  letter-spacing: 0.06em;
+
+  /* color-dark-l */
+
+  color: #545454;
 }
