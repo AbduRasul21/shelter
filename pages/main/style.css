@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/assets/fonts/Arial.woff);
+}
+
+@font-face {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/assets/fonts/Georgia.woff);
+}
+
+.container {
+  margin: 0 auto;
+  width: 1280px;
+}
+
+.start-screen {
+  /* height: 908px; */
+  width: 100%;
+  background: radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%)
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    #211f20;
+}
+
+.header {
+  width: 1200px;
+  /* background-color: azure; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 60px 0px;
+}
+
+.logo__title {
+  align-items: center;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 110%;
+  /* color-primary */
+
+  color: #f1cdb3;
+}
+
+.logo__subtitle {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+
+  /* color-light-xl */
+
+  color: #ffffff;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-menu__list {
+  margin: 16px 0px 20px 35px;
+}
+
+.nav-menu__list:active {
+    color: #FAFAFA;
+  border-bottom: solid 3px #f1cdb3;
+}
+
+.nav-menu__list:hover {
+  color: #FAFAFA;
+}
+
+.nav-menu__list:first-child {
+  margin-left: 0px;
+}
+
+.nav-menu__list a {
+  /* paragraph-l */
+
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  /* identical to box height, or 24px */
+
+  /* color-dark-s */
+
+  color: #cdcdcd;
+}
+
+.start-screen__content {
+  width: 1200px;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+.start-screen__content__content {
+  width: 460px;
+  margin-right: 40px;
+}
+
+.content__heading {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 130%;
+  color: #ffffff;
+  width: 310px;
+}
+
+.content__paragraph {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #cdcdcd;
+  margin: 42px 0px;
+}
+
+.start-screen__content__puppy {
+  background-image: url(/assets/images/start-screen-puppy.png);
+  background-size: contain;
+  width: 698px;
+  height: 728px;
+  background-repeat: no-repeat;
+}
+
+.btn {
+  /*padding: 15px 45px;
+  */
+  width: 207px;
+  height: 52px;
+  /*color-primary*/
+  background: #f1cdb3;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  /* identical to box height, or 22px */
+
+  letter-spacing: 0.06em;
+
+  /* color-dark-3xl */
+
+  color: #292929;
+  border: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: #FDDCC4;
+}
