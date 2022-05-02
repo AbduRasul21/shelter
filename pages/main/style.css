@@ -10,14 +10,14 @@
   font-family: "Arial";
   font-style: normal;
   font-weight: normal;
-  src: url(/assets/fonts/Arial.woff);
+  src: url('../../assets/fonts/Arial.woff');
 }
 
 @font-face {
   font-family: "Georgia";
   font-style: normal;
   font-weight: normal;
-  src: url(/assets/fonts/Georgia.woff);
+  src: url('../../assets/fonts/Georgia.woff');
 }
 
 .container {
@@ -197,7 +197,7 @@
 }
 
 .about-content__image {
-  background-image: url(/assets/images/about-pets.png);
+  background-image: url('../../assets/images/about-pets.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 300px;
