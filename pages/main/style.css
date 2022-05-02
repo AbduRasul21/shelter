@@ -336,3 +336,190 @@
 .help-content__list-2 {
   margin: 55px 98px 0 98px;
 }
+
+/* donation part */
+
+.donation {
+  width: 1280px;
+  background-color: #f6f6f6;
+  padding: 80px 182px 100px 183px;
+}
+
+.donation-content {
+  display: flex;
+  flex-direction: row;
+  /* width: 915px; */
+  justify-content: space-between;
+}
+
+.donation-heading {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  /* or 45px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+
+  /* color-dark-l */
+
+  color: #545454;
+  width: 300px;
+}
+
+.donation-subheading {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 110%;
+  /* identical to box height, or 17px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+
+  /* color-dark-l */
+
+  color: #545454;
+
+  margin: 10px 0px;
+}
+
+.donation-card {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  padding: 10px 15px;
+
+  width: 349px;
+
+  top: 147px;
+
+  /* color-primary */
+
+  background: #f1cdb3;
+  border-radius: 9px;
+}
+
+.donation-card__number {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  /* identical to box height, or 23px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+
+  /* color-dark-l */
+
+  color: #545454;
+  padding-left: 14px;
+}
+
+.donation-card__legal-information {
+  width: 380px;
+
+  /* donation-description */
+
+  font-family: "Arial";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+
+  /* color-dark-m */
+
+  color: #b2b2b2;
+  margin-top: 20px;
+}
+
+/* footer */
+
+.footer {
+  width: 1280px;
+  padding: 40px 40px 0px 40px;
+  background: url(noise_lines_transparent@2X.png),
+    radial-gradient(110.67% 538.64% at 5.73% 50%, #513d2f 0%, #1a1a1c 100%)
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    #211f20;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.footer-contacts {
+  width: 278px;
+}
+
+.footer-locations {
+  width: 302px;
+}
+
+.footer-text {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  /* identical to box height, or 23px */
+
+  letter-spacing: 0.06em;
+
+  /* color-primary */
+
+  color: #f1cdb3;
+  margin-left: 20px;
+}
+
+.contacts-title {
+  width: 279px;
+ 
+
+
+  /* h3 */
+
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  /* or 45px */
+
+  letter-spacing: 0.06em;
+
+  /* color-light-xl */
+
+  color: #ffffff;
+}
+
+
+.footer_email{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 43px 0px;
+}
+
+.footer_phone{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
