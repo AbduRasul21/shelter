@@ -12,16 +12,18 @@
 <body>
     <div class="container">
         <div class="header">
-            <a href="/index.html" class="logo">
+            <a href="../../pages/main/index.html" class="logo">
                 <h1 class="logo__title">Cozy House</h1>
                 <p class="logo__subtitle">Shelter for pets in Boston</p>
             </a>
 
             <ul class="nav-menu">
-                <li class="nav-menu__list selected"><a class="nav-link" href="">About the shelter</a></li>
-                <li class="nav-menu__list"><a href="">Our pets</a></li>
-                <li class="nav-menu__list"><a href="">Help the shelter</a></li>
-                <li class="nav-menu__list"><a href="">Contacts</a></li>
+                <li class="nav-menu__list"><a class="nav-link" href="../../pages/main/index.html">About the shelter</a>
+                </li>
+                <li class="nav-menu__list selected"><a href="./index.html">Our pets</a></li>
+                <li class="nav-menu__list"><a href="../../pages/main/index.html#help_the_shelter">Help the shelter</a>
+                </li>
+                <li class="nav-menu__list"><a href="#contacts">Contacts</a></li>
             </ul>
         </div>
 
@@ -58,77 +60,77 @@
                 <div class="pets-slider">
 
                     <div class="pets-card">
-                        <img src="../../assets/images/pets-katrine.png" alt="pets-katrina-image">
-                        <h4 class="pets-card__title">Katrine</h4>
+                        <img src="../../assets/images/pets-timmy.png" alt="pets-timmy-image">
+                        <h4 class="pets-card__title">Timmy</h4>
                         <button class="btn">Learn more</button>
                     </div>
                     <div class="pets-card">
-                        <img src="../../assets/images/pets-jennifer.png" alt="pets-jennifer-image">
-                        <h4 class="pets-card__title">Jennifer</h4>
+                        <img src="../../assets/images/pets-charly.png" alt="pets-charly-image">
+                        <h4 class="pets-card__title">Charly</h4>
                         <button class="btn">Learn more</button>
                     </div>
 
                     <div class="pets-card">
-                        <img src="../../assets/images/pets-woody.png" alt="pets-woody-image">
-                        <h4 class="pets-card__title">Woody</h4>
+                        <img src="../../assets/images/pets-scarlet.png" alt="pets-scarlet-image">
+                        <h4 class="pets-card__title">Scarlet</h4>
                         <button class="btn">Learn more</button>
                     </div>
                     <div class="pets-card">
-                        <img src="../../assets/images/pets-sophia.png" alt="pets-sophia-image">
-                        <h4 class="pets-card__title">Sophia</h4>
+                        <img src="../../assets/images/pets-freddie.png" alt="pets-freddie-image">
+                        <h4 class="pets-card__title">Freddie</h4>
                         <button class="btn">Learn more</button>
                     </div>
 
                 </div>
             </div>
             <div class="buttons">
-                <button disabled class="btn pets-arrov">
+                <button disabled class="btn__gray">
                     << </button>
-                        <button class="btn pets-arrov">
+                        <button disabled class="btn__gray">
                             < </button>
-                                <button class="btn pets-arrov"> 1 </button>
+                                <button class="btn btn__active"> 1 </button>
                                 <button disabled class="btn pets-arrov"> > </button>
                                 <button class="btn pets-arrov"> >> </button>
             </div>
         </div>
 
-        <footer class="footer">
+        <footer class="footer" id="contacts">
             <div class="footer-content">
                 <div class="footer-contacts">
                     <h3 class="contacts-title">
                         For questions and suggestions
                     </h3>
-                    <div class="footer_email">
+                    <a href="mailto:email@shelter.com" class="footer_email">
                         <img src="../../assets/icons/mail.svg" alt="mail">
                         <h4 class="footer-text">
                             email@shelter.com
                         </h4>
-                    </div>
+                    </a>
 
-                    <div class="footer_phone">
+                    <a href="tel:+13 674 567 75 54" class="footer_phone">
                         <img src="../../assets/icons/phone.svg" alt="phone">
                         <h4 class="footer-text">
                             +13 674 567 75 54
                         </h4>
-                    </div>
+                    </a>
                 </div>
                 <div class="footer-locations">
                     <h3 class="contacts-title">
                         We are waiting for your visit
                     </h3>
-                    <div class="footer_email">
+                    <a target="_blank" href="https://goo.gl/maps/GymHMTknkdDr18Lv8" class="footer_email">
                         <img src="../../assets/icons/pin.svg" alt="pin">
                         <h4 class="footer-text">
                             1 Central Street, Boston (entrance from the store)
                         </h4>
-                    </div>
+                    </a>
 
-                    <div class="footer_phone">
+                    <a target="_blank" href="https://goo.gl/maps/5jgidR6JUcEk5oZw9" class="footer_phone">
                         <img src="../../assets/icons/pin.svg" alt="pin">
                         <h4 class="footer-text">
                             18 South Park, London
                         </h4>
-                    </div>
+                    </a>
                 </div>
                 <div class="footer-puppy">
                     <img src="../../assets/images/footer-puppy.png" alt="footer-puppy">
