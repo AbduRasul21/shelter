@@ -52,6 +52,28 @@
   background: #fddcc4;
 }
 
+.btn__gray {
+  background-color: transparent;
+  width: 54px;
+  height: 54px;
+  border: 2px solid #cdcdcd;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn__active {
+  background-color: #fddcc4;
+  width: 54px;
+  height: 54px;
+  border: 2px solid #f1cdb3;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container {
   margin: 0 auto;
   width: 1280px;
@@ -105,13 +127,14 @@
   margin: 16px 0px 20px 35px;
 }
 
-.nav-menu__list:active {
+.selected {
   color: #fafafa;
   border-bottom: solid 3px #f1cdb3;
 }
 
 .nav-menu__list:hover {
   color: #fafafa;
+  border-bottom: solid 3px #f1cdb3;
 }
 
 .nav-menu__list:first-child {
@@ -174,6 +197,15 @@
   text-align: center;
   background: #ffffff;
   padding-bottom: 30px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.pets-card:hover {
+  box-shadow: 5px 5px 15px 5px rgba(56, 44, 3, 0.79);
 }
 
 .pets-card__title {

@@ -81,13 +81,17 @@
   margin: 16px 0px 20px 35px;
 }
 
-.nav-menu__list:active {
+.nav-menu__list.selected {
   color: #fafafa;
   border-bottom: solid 3px #f1cdb3;
 }
 
-.nav-menu__list:hover {
+.nav-menu__list a:hover {
   color: #fafafa;
+}
+
+.nav-menu__list:hover {
+  border-bottom: solid 3px #f1cdb3;
 }
 
 .nav-menu__list:first-child {
@@ -233,7 +237,7 @@
 
 .pets-container {
   width: 1280px;
-text-align: center;
+  text-align: center;
   padding: 80px 40px 100px 40px;
   background: #f6f6f6;
 }
@@ -241,7 +245,7 @@ text-align: center;
 .pets-content {
   display: flex;
   flex-direction: column;
-  }
+}
 
 .pets-heading {
   margin: 0 auto;
@@ -259,6 +263,16 @@ text-align: center;
   text-align: center;
   background: #ffffff;
   padding-bottom: 30px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.pets-card:hover {
+  box-shadow: 5px 5px 15px 5px rgba(56, 44, 3, 0.79);
+  
 }
 
 .pets-card__title {
@@ -287,10 +301,6 @@ text-align: center;
   justify-content: center;
   align-items: center;
 }
-
-
-
-
 
 /* help content */
 
