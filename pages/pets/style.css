@@ -208,6 +208,10 @@
   box-shadow: 5px 5px 15px 5px rgba(56, 44, 3, 0.79);
 }
 
+.pets-card:hover .btn {
+  background: #fddcc4;
+}
+
 .pets-card__title {
   font-family: "Georgia";
   font-style: normal;
