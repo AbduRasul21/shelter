@@ -19,10 +19,10 @@
   font-weight: normal;
   src: url("../../assets/fonts/Georgia.woff");
 }
-
-.container {
+/* start wrapper */
+.wrapper {
   margin: 0 auto;
-  width: 1280px;
+  max-width: 1280px;
   background: #ffffff;
 }
 
@@ -33,16 +33,21 @@
     radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%)
       /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
     #211f20;
+  padding: 0 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .header {
-  width: 1200px;
   /* background-color: azure; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 60px 0px;
+  padding: 40px 0;
+   margin: 0 auto;
 }
 
 .logo__title {
@@ -113,10 +118,14 @@
   color: #cdcdcd;
 }
 
+/* ************************* End Header */
+
+/* start start-screen content */
+
 .start-screen__content {
-  width: 1200px;
+  /* width: 1200px; */
   align-items: center;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   display: flex;
 }
 
@@ -187,6 +196,8 @@
   cursor: pointer;
   background: #fddcc4;
 }
+
+/* *******************  END start-screen content */
 
 /* start about content */
 
@@ -272,7 +283,6 @@
 
 .pets-card:hover {
   box-shadow: 5px 5px 15px 5px rgba(56, 44, 3, 0.79);
-  
 }
 
 .pets-card__title {
@@ -535,4 +545,28 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+@media screen and (max-width: 1280px) {
+  .start-screen__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    /* margin: 0 auto; */
+  }
+
+  .about-container{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+
+  .about-content__image{
+    order: 2;
+  }
+  .pets-cards :nth-last-child(3){
+    display: none;
+  }
+
 }
