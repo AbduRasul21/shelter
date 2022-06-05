@@ -590,6 +590,10 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  .pets-slider :last-child{
+    display: none;
+  }
+
   .help-content-list {
     display: grid;
     width: 100%;
@@ -608,7 +612,10 @@
   .footer-puppy {
     text-align: center;
   }
- 
 }
 
+@media screen and (max-width: 1280px) {
 
+
+
+}
