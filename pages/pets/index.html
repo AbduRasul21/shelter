@@ -11,6 +11,28 @@
 
 <body>
     <div class="container">
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <a href="./index.html" class="logo">
+                <h1 class="logo__title">Cozy House</h1>
+                <p class="logo__subtitle">Shelter for pets in Boston</p>
+            </a>
+
+            <nav class="sidebar__nav">
+                <ul>
+                    <li>
+                        <a href="./index.html" class="active-link">About the shelter</a>
+                    </li>
+                    <li>
+                        <a href="../pets/index.html">Our pets</a>
+                    </li>
+                    <li><a href="#help_the_shelter">Help the shelter</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+
+        </div>
         <div class="header">
             <a href="../../pages/main/index.html" class="logo">
                 <h1 class="logo__title">Cozy House</h1>
@@ -25,6 +47,9 @@
                 </li>
                 <li class="nav-menu__list"><a href="#contacts">Contacts</a></li>
             </ul>
+
+            <!-- humberger menu -->
+            <button class="humburger"></button>
         </div>
 
         <div class="pets-container">
@@ -96,41 +121,43 @@
 
         <footer class="footer" id="contacts">
             <div class="footer-content">
-                <div class="footer-contacts">
-                    <h3 class="contacts-title">
-                        For questions and suggestions
-                    </h3>
-                    <a href="mailto:email@shelter.com" class="footer_email">
-                        <img src="../../assets/icons/mail.svg" alt="mail">
-                        <h4 class="footer-text">
-                            email@shelter.com
-                        </h4>
-                    </a>
+                <div class="footer-info">
+                    <div class="footer-contacts">
+                        <h3 class="contacts-title">
+                            For questions and suggestions
+                        </h3>
+                        <a href="mailto:email@shelter.com" class="footer_email">
+                            <img src="../../assets/icons/mail.svg" alt="mail">
+                            <h4 class="footer-text">
+                                email@shelter.com
+                            </h4>
+                        </a>
 
-                    <a href="tel:+13 674 567 75 54" class="footer_phone">
-                        <img src="../../assets/icons/phone.svg" alt="phone">
-                        <h4 class="footer-text">
-                            +13 674 567 75 54
-                        </h4>
-                    </a>
-                </div>
-                <div class="footer-locations">
-                    <h3 class="contacts-title">
-                        We are waiting for your visit
-                    </h3>
-                    <a target="_blank" href="https://goo.gl/maps/GymHMTknkdDr18Lv8" class="footer_email">
-                        <img src="../../assets/icons/pin.svg" alt="pin">
-                        <h4 class="footer-text">
-                            1 Central Street, Boston (entrance from the store)
-                        </h4>
-                    </a>
+                        <a href="tel:+13 674 567 75 54" class="footer_phone">
+                            <img src="../../assets/icons/phone.svg" alt="phone">
+                            <h4 class="footer-text">
+                                +13 674 567 75 54
+                            </h4>
+                        </a>
+                    </div>
+                    <div class="footer-locations">
+                        <h3 class="contacts-title">
+                            We are waiting for your visit
+                        </h3>
+                        <a target="_blank" href="https://goo.gl/maps/GymHMTknkdDr18Lv8" class="footer_email">
+                            <img src="../../assets/icons/pin.svg" alt="pin">
+                            <h4 class="footer-text">
+                                1 Central Street, Boston (entrance from the store)
+                            </h4>
+                        </a>
 
-                    <a target="_blank" href="https://goo.gl/maps/5jgidR6JUcEk5oZw9" class="footer_phone">
-                        <img src="../../assets/icons/pin.svg" alt="pin">
-                        <h4 class="footer-text">
-                            18 South Park, London
-                        </h4>
-                    </a>
+                        <a target="_blank" href="https://goo.gl/maps/5jgidR6JUcEk5oZw9" class="footer_phone">
+                            <img src="../../assets/icons/pin.svg" alt="pin">
+                            <h4 class="footer-text">
+                                18 South Park, London
+                            </h4>
+                        </a>
+                    </div>
                 </div>
                 <div class="footer-puppy">
                     <img src="../../assets/images/footer-puppy.png" alt="footer-puppy">
@@ -139,7 +166,7 @@
         </footer>
     </div>
 
-
+<script src="pets.js"></script>
 </body>
 
 </html>
