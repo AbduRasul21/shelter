@@ -4,5 +4,11 @@ var header = document.querySelector(".header");
 
 humburger.addEventListener("click", (event) => {
   sidebar.classList.toggle("show-sidebar");
-//   event.stopPropagation();
+  humburger.classList.toggle("rotate");
+  event.stopPropagation();
+});
+
+document.addEventListener("click", function () {
+  sidebar.classList.remove("show-sidebar");
+  humburger.classList.remove("rotate");
 });
